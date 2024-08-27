@@ -10,4 +10,4 @@ Proof of Concept: To reproduce this attack, an attacker can inject a script into
 
 Image
 
-Remediation: It is important to sanitize 
+Remediation: It is important to update Dairy Farm Shop Management System by properly sanitizing code variables and including restricting for special characters so that malicious input such as the one showed in the example cannot be injected. 
