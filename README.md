@@ -1,13 +1,19 @@
 Affected Web App: CodeAstro Membership Management System in PHP
 
+Version: v1.0
+
 Title: Stored Cross Site Scripting (XSS) vulnerability
 
-Affected Component: /add_members.php, /edit_members.php
+Affected Component: /add_members.php, /edit_member.php
 
-Impact: Cross-Site Scripting (XSS) vulnerability is a serious web security threat, allowing attackers to inject malicious scripts with diverse impacts. Users face data theft, session hijacking, and unwittingly performing unauthorized actions.
+fullname parameter and address parameter within each of these files is vulnerable to stored Cross-Site Scripting
 
-Proof of Concept: To reproduce this attack, an attacker can inject a script into the fullname field while adding new members. The payload '<script>alert("xss")</script>' was successfully accepted, leading to an alert being triggered for the user
+Impact: Cross-Site Scripting (XSS) vulnerability is a serious web security threat. When attackers execute this type of threat by injecting malicious scripts, it can lead to user data being compromised, their account getting hijacked or even malware getting installed on the host machine.
 
-Image
+Image: 
 
-Remediation: It is important to update Dairy Farm Shop Management System by properly sanitizing code variables and including restricting for special characters so that malicious input such as the one showed in the example cannot be injected. 
+Proof of Concept: To reproduce this attack, an attacker can inject a script into the Full Name field or Address field either while adding new members or editing new members (as shown in the two figures above) under the Add Members tab of the application. The payload '<script>alert(1)</script>' was successfully accepted, leading to an alert being triggered for the user when the members are being viewed in mange_members.php
+
+Image:
+
+Remediation: It is important to update CodeAstro Membership Management System by properly sanitizing code variables and including restrictions for special characters so that malicious input such as the one showed in the example cannot be injected. 
