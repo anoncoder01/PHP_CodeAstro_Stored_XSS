@@ -14,6 +14,7 @@ Image:
 
 <img width="909" alt="codeastro_vul1" src="https://github.com/user-attachments/assets/8bb333ce-056b-409c-8ede-dec39c9c3400">
 
+
 <img width="910" alt="codeastro_vul2" src="https://github.com/user-attachments/assets/a1c5190e-ae7f-4524-9864-b546e95e2958">
 
 
@@ -22,6 +23,7 @@ Proof of Concept: To reproduce this attack, an attacker can inject a script into
 Image:
 
 <img width="910" alt="proof_code_astro" src="https://github.com/user-attachments/assets/01442748-64e4-407c-b0cc-aecfb852f508">
+
 
 <img width="909" alt="proof2_code_astro" src="https://github.com/user-attachments/assets/429112c3-0862-4dc9-bb64-ace36cbf7f7d">
 
