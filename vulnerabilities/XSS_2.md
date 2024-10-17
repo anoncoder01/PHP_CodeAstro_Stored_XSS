@@ -14,7 +14,7 @@ Image:
 <img width="909" alt="codeastro_vul2_pic1" src="https://github.com/user-attachments/assets/b9f48b3b-5f3c-44e0-bdba-ff436b8857bb">
 
 
-Proof of Concept: To reproduce this attack, an attacker can inject a script like *<script>alert(1)</script>* into the Membership Type field either while the types of the memberships (as shown in the two figures above) under the Membership Types tab of the application. The payload '<script>alert(1)</script>' was successfully accepted, leading to an alert being triggered for the user when the membership types are being viewed in view_type.php
+Proof of Concept: To reproduce this attack, an attacker can inject a script like *<script>alert(1)</script>* into the Membership Type field while editing the types of the memberships (as shown in the figure above) under the Membership Types tab of the application. The payload '<script>alert(1)</script>' was successfully accepted, leading to an alert being triggered for the user when the membership types are being viewed in view_type.php
 
 Image:
 
